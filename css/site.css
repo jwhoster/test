@@ -1,0 +1,109 @@
+@charset "utf-8";
+
+body{
+    font-size: 16px;
+    font-family: "Noto Sans JP","Raleway";
+}
+#header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.875em 1em;
+    background-color:#FFF;
+    box-shadow: 0 0 5px rgba(0, 0,0, 0.16);
+
+}
+
+
+#header nav ul{
+    width: 490px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center; 
+}
+
+#header nav span{
+    display: block;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    padding: 0 0 0.1875em;
+}
+#header nav ul li{
+    font-size: 14px;
+
+}
+#header nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+#contact{
+    color: white;
+    text-align: center;
+    background-image: url(/images/index/contact.jpg);
+
+
+    
+}
+
+#contact .title01{
+    color: white;
+}
+
+#contact .title01 h3{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+#contact .title01 p{
+    font-size: 16px;
+    font-weight: 100;
+    font-family: 'Noto Sans JP', sans-serif;
+    padding-top: 10px;
+}
+
+#contact .text{
+    font-size: 18px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 100;
+    padding-top: 27px;
+}
+
+#contact .contact-info{
+    display: flex;
+    width: 765.42px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+#contact .contact-info .tel span{
+    display: block;
+    font-size: 18px;
+    font-weight: normal;
+    font-family: 'Noto Sans JP', sans-serif;
+    
+
+}
+
+#contact .contact-info .tel {
+    font-size: 39px;
+    font-weight: 300;
+    font-family: 'Bai Jamjuree', sans-serif;
+    text-align: left;
+    
+}
+
+#contact .contact-info .mail{
+    font-family: 'Noto Sans JP', sans-serif;
+    width: 330px;
+    height: 60px;
+    background-color: #EE9600;
+    padding-top: 17px;
+    
+    
+}
