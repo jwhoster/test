@@ -4,6 +4,9 @@ body{
     font-size: 16px;
     font-family: "Noto Sans JP","Raleway";
 }
+
+/* ヘッダー */
+
 #header{
     width: 100%;
     display: flex;
@@ -31,31 +34,68 @@ body{
 }
 #header nav ul li{
     font-size: 14px;
-
 }
+
 #header nav ul li a{
     text-decoration: none;
     color: black;
 }
 
+/* メイン */
+
+.key-visual{
+    position:relative;
+    background-image: url(../images/index/key_visual.jpg);
+    width: 100%;
+    height: calc(100vh - 81px);
+    
+}
+
+.key-heading{
+    position: absolute;
+    background-color: #FFF;
+    left: 0;
+    bottom: 0;
+    width: 730px;
+    height: 200px;
+}
+
+.key-heading h1{
+    font-size: 88px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+}
+
+.key-heading h1 span{
+    color: #049272;
+}
+
+.key-heading p{
+    font-size: 30px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 400;
+}
+
+/* コンタクト */
+
 #contact{
     color: white;
     text-align: center;
-    background-image: url(/images/index/contact.jpg);
-
-
-    
+    background-image: url(../images/index/contact.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
 }
 
 #contact .title01{
     color: white;
+    padding-top: 115px;
 }
 
 #contact .title01 h3{
     font-size: 40px;
     font-weight: 700;
     font-family: 'Raleway', sans-serif;
-
 }
 
 #contact .title01 p{
@@ -86,16 +126,18 @@ body{
     font-size: 18px;
     font-weight: normal;
     font-family: 'Noto Sans JP', sans-serif;
-    
-
 }
 
 #contact .contact-info .tel {
     font-size: 39px;
-    font-weight: 300;
+    font-weight: 600;
     font-family: 'Bai Jamjuree', sans-serif;
-    text-align: left;
-    
+    text-align: left;   
+}
+
+#contact .contact-info .tel a{
+    text-decoration: none;
+    color: #FFF;
 }
 
 #contact .contact-info .mail{
@@ -103,7 +145,76 @@ body{
     width: 330px;
     height: 60px;
     background-color: #EE9600;
-    padding-top: 17px;
-    
-    
+    padding-top: 18px;
+}
+
+/* フッター */
+
+#footer{
+    background-color: #000;
+    width: 100%;
+    height: 240px;
+    color: #FFF;
+}
+
+#footer .inner{
+    display: flex;
+    justify-content: space-between;
+    width: 1060px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#footer #footer-logo svg {
+    width: 200px;
+    height: 57.22px;
+    margin-top: 50px;
+}
+
+#footer #footer-logo svg .logowhite{
+    fill: #FFF;
+}
+
+#footer .footer-left .text{
+    font-weight: 700;
+    margin-top: 24.8px;
+    margin-bottom: 4px;
+}
+
+#footer .footer-left address{
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+#footer .footer-left br{
+    display: block;
+    content: "";
+    padding-top: 4px;
+}
+
+#footer .footer-right ul{
+    display: flex;
+    margin-top: 147px;
+}
+
+#footer .footer-right ul li{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #AAAA;
+}
+
+#footer .footer-right ul li a{
+    text-decoration: none;
+    color: #AAAA;
+}
+
+#footer .footer-right .copyright{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #AAAA;
+    text-align: right;
+    margin-top: 20px;
 }

@@ -19,7 +19,7 @@
 		<link rel="mask-icon" href="/images/favicon/safari-pinned-tab.svg" color="#0151ac">
 		<meta name="msapplication-TileColor" content="#0151ac">
 		<meta name="theme-color" content="#ffffff">
-		<link rel="stylesheet" type="text/css" href="/css/styles.css">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
 		<link rel="canonical" href="<?php echo $pageUrl; ?>">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
